@@ -20,6 +20,12 @@ public class Main {
         var result1 = 100/10000.0; //или
         double result2 = 100/10000.0;
 
+        //boolean
+        boolean b = true;
+
+        // char
+        char c = 'a';
+
         System.out.println(result2);
     }
 }
