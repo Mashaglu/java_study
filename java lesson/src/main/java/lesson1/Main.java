@@ -24,7 +24,7 @@ public class Main {
         boolean b = true;
 
         // char
-        char c = 'a';
+        char h = 'a';
 
         System.out.println(result2);
     }
