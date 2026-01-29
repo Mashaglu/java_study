@@ -13,12 +13,12 @@ public class Main {
         float floatVar = 123.45f;
         double doubleVar = 123.456d;
 
-        var number =1234;
+        var number = 1234;
         // + - * / %
 
-        var result = 100/10000; // так выдаст в результате только целое число
-        var result1 = 100/10000.0; //или
-        double result2 = 100/10000.0;
+        var result = 100 / 10000; // так выдаст в результате только целое число
+        var result1 = 100 / 10000.0; //или
+        double result2 = 100 / 10000.0;
 
         //boolean
         boolean b = true;
@@ -26,6 +26,6 @@ public class Main {
         // char
         char h = 'a';
 
-        System.out.println(result2);
+        //boolean
     }
 }
