@@ -1,6 +1,6 @@
-package Homework.DZ_1;
+package Homework.dz_1;
 
-public class part_2 {
+public class Part2 {
     public static void main(String[] args) {
         //2. Создайте переменную int age = [0, 100]:
         //2.1. Вывести в консоль (System.out.println(result))

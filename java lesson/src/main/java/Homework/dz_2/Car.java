@@ -1,4 +1,4 @@
-package Homework.DZ_2;
+package Homework.dz_2;
 // д/з класс Car {String color, int fuel, String model, int doors}
 public class Car {
     String color;
