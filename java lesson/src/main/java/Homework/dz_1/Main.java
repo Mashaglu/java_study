@@ -19,25 +19,25 @@ public class Main {
             System.out.println(100 <= number && number <= 1000 ? "Ваше число " + number + " в диапазоне [100, 1000]" : "Ваше число " + number + " не в диапазоне [100, 1000]");
         }
         //1.1.2. number за пределами диапазона [1, 1000];
-        else  if (vari == 2) {
-            System.out.println(1 <= number && number <= 1000 ?   "Ваше число " + number + " в диапазоне [1, 1000]" : "Ваше число " + number + " за пределами диапазона [1, 1000]");
+        else if (vari == 2) {
+            System.out.println(1 <= number && number <= 1000 ? "Ваше число " + number + " в диапазоне [1, 1000]" : "Ваше число " + number + " за пределами диапазона [1, 1000]");
 
         }
         //1.1.3. number только в диапазонах [1, 10] или [100, 300];
         else if (vari == 3) {
-                System.out.println( 1 <= number && number <= 10 ?  "Ваше число " + number + " в диапазоне [1, 10]" : 100 <= number && number <= 300 ? "Ваше число " + number + " в диапазоне [100, 300]" : "Ваше число " + number + " за пределами этих диапазонов");
+            System.out.println(1 <= number && number <= 10 ? "Ваше число " + number + " в диапазоне [1, 10]" : 100 <= number && number <= 300 ? "Ваше число " + number + " в диапазоне [100, 300]" : "Ваше число " + number + " за пределами этих диапазонов");
         }
         //1.1.4. number четное;
         else if (vari == 4) {
-            System.out.println( number % 2 == 0 ?  "Ваше число " + number + " чётное" :  "Ваше число " + number + " нечётное");
+            System.out.println(number % 2 == 0 ? "Ваше число " + number + " чётное" : "Ваше число " + number + " нечётное");
         }
         //1.1.5. number кратное 5 и 7;
         else if (vari == 5) {
-            System.out.println( number % 5 == 0 && number % 7 == 0 ?  "Ваше число " + number + " кратное 5 и 7" :  "Ваше число " + number + " не кратное 5 и 7");
+            System.out.println(number % 5 == 0 && number % 7 == 0 ? "Ваше число " + number + " кратное 5 и 7" : "Ваше число " + number + " не кратное 5 и 7");
         }
         //1.1.6. number кратное 3 но не кратное 9;
         else if (vari == 6) {
-            System.out.println( number % 3 == 0 ? number % 9 != 0 ? "Ваше число " + number + " кратное 3, но не кратное 9" :  "Ваше число " + number + " кратное 3 и кратное 9": "Ваше число " + number + " не кратное ни 3, ни 9");
+            System.out.println(number % 3 == 0 ? number % 9 != 0 ? "Ваше число " + number + " кратное 3, но не кратное 9" : "Ваше число " + number + " кратное 3 и кратное 9" : "Ваше число " + number + " не кратное ни 3, ни 9");
         }
 
     }

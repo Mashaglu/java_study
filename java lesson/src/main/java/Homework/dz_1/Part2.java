@@ -8,10 +8,9 @@ public class Part2 {
         int age = 52;
         if (age < 18) {
             System.out.println(age + " лет - Ребёнок");
-        } else  if (age >= 18 && age < 65) {
+        } else if (age >= 18 && age < 65) {
             System.out.println(age + " лет - Взрослый");
-        }
-        else  if (age >= 65 ) {
+        } else if (age >= 65) {
             System.out.println(age + " лет - Пенсионер");
         }
 
@@ -19,14 +18,14 @@ public class Part2 {
         Home house1 = new Home();
         house1.width = 100;
         house1.height = 100;
-        house1.address="дом Колотушкина";
+        house1.address = "дом Колотушкина";
         house1.cost = 500.0;
 
-        Home house2 = new Home("СПб",150,150,50.0);
+        Home house2 = new Home("СПб", 150, 150, 50.0);
 
         Home house3 = new Home();
 
-        System.out.println(" Адрес " + house3.address + "\n Цена " + house3.cost +"\n Ширина " + house3.width + "\n Длинна " + house3.height);
+        System.out.println(" Адрес " + house3.address + "\n Цена " + house3.cost + "\n Ширина " + house3.width + "\n Длинна " + house3.height);
     }
 
 }
