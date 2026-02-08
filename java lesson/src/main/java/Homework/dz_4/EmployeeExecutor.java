@@ -17,21 +17,25 @@ public class EmployeeExecutor {
 
         Employee emp1 = new QA();
         emp1.setTask("0");
+        emp1.setName("Жора Тестер");
         emp1.doTask();
         System.out.println("Имя: " + emp1.getName() + ", Задача: " + emp1.getTask() + ", Зарплата: " + emp1.getSalary() + "\n");
 
         Employee emp2 = new SystemAnalitic();
         emp2.setTask("Аналитика");
+        emp2.setName("Жанна сис. аналитик");
         emp2.doTask();
         System.out.println("Имя: " + emp2.getName() + ", Задача: " + emp2.getTask() + ", Зарплата: " + emp2.getSalary() + "\n");
 
         Employee emp3 = new BusinessAnalitic();
         emp3.setTask("Бизнес анализ");
+        emp3.setName("Коля б. аналитик");
         emp3.doTask();
         System.out.println("Имя: " + emp3.getName() + ", Задача: " + emp3.getTask() + ", Зарплата: " + emp3.getSalary() + "\n");
 
         Employee emp4 = new Developer();
         emp4.setTask("Разработка");
+        emp4.setName("Толя разраб");
         emp4.doTask();
         System.out.println("Имя: " + emp4.getName() + ", Задача: " + emp4.getTask() + ", Зарплата: " + emp4.getSalary() + "\n");
 

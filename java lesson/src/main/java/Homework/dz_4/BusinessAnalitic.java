@@ -2,12 +2,14 @@ package Homework.dz_4;
 
 public class BusinessAnalitic implements Employee {
     private String taskName;
+    private String name;
 
     public BusinessAnalitic() {
     }
 
-    public BusinessAnalitic(String taskName) {
+    public BusinessAnalitic(String taskName, String name) {
         this.taskName = taskName;
+        this.name = name;
     }
 
     @Override
@@ -27,7 +29,11 @@ public class BusinessAnalitic implements Employee {
 
     @Override
     public String getName() {
-        return "Коля б.аналитик";
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override

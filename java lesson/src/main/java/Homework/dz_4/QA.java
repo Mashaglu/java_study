@@ -5,12 +5,14 @@ import java.util.Scanner;
 public class QA implements Employee {
     private String taskName;
     Scanner sc = new Scanner(System.in);
+    private String name;
 
     public QA() {
     }
 
-    public QA(String taskName) {
+    public QA(String taskName, String name) {
         this.taskName = taskName;
+        this.name = name;
     }
 
     @Override
@@ -30,8 +32,12 @@ public class QA implements Employee {
     }
 
     @Override
-    public String getName() {
-        return "Вася тестировщик";
+    public String getName()  {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override

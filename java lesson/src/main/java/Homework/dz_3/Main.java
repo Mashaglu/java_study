@@ -13,5 +13,8 @@ public class Main {
         Car car3 = new CarImpl();
         car3.setPrice(600_000.90);
         System.out.println(car3.getPrice());
+
+        Car car4 = new CarImpl("Ауди","Синий",900_000.90 );
+        System.out.println(car4.getColor() + " " +  car4.getModel()+ " " +  car4.getPrice());
     }
 }

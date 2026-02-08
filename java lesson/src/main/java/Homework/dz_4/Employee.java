@@ -18,4 +18,6 @@ public interface Employee {
 
     String getTask();
 
+    void setName(String name);
+
 }

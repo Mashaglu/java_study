@@ -2,12 +2,14 @@ package Homework.dz_4;
 
 public class Developer implements Employee {
     private String taskName;
+    private String name;
 
     public Developer() {
     }
 
-    public Developer(String taskName) {
+    public Developer(String taskName, String name) {
         this.taskName = taskName;
+        this.name = name;
     }
 
     @Override
@@ -27,7 +29,11 @@ public class Developer implements Employee {
 
     @Override
     public String getName() {
-        return "Маша разработчик";
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
