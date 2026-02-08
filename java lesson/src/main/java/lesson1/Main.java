@@ -5,7 +5,7 @@ public class Main {
         //Числа
         byte byteVar = 1;
         short shortVar = 2;
-        int intVar = 3;
+        extracted();
         long longVar = 4;
 
 
@@ -27,5 +27,9 @@ public class Main {
         char h = 'a';
 
         //boolean
+    }
+
+    private static void extracted() {
+        int intVar = 3;
     }
 }
