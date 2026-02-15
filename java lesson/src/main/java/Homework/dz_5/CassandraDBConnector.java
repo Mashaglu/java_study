@@ -1,6 +1,9 @@
-package lesson5.step1;
+package Homework.dz_5;
 
-public abstract class AbstractDBConnector implements DBConnector {
+import lesson5.step1.DBConnector;
+
+
+public class CassandraDBConnector implements DBConnector {
     private String username;
     private String password;
     private String host;
@@ -9,19 +12,16 @@ public abstract class AbstractDBConnector implements DBConnector {
     private final String CONNECT = "Connecting to database : %s:%d/%s";
     private final String DISCONNECT = "Disconnect to database : %s:%d/%s";
 
-    public AbstractDBConnector(String username,
-                                  String password,
-                                  String host,
-                                  int port,
-                                  String database) {
+    public CassandraDBConnector(String username,
+                                String password,
+                                String host,
+                                int port,
+                                String database) {
         this.username = username;
         this.password = password;
         this.host = host;
         this.port = port;
         this.database = database;
-    }
-
-    protected AbstractDBConnector() {
     }
 
     @Override
