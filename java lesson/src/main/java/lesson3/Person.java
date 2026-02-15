@@ -34,35 +34,29 @@ public class Person {
     // Getters и Setters
     // метод без параметров и возвращает строку имя
     // видимость глобальная
-    // отдаём
     public String getFirstName() {
         return firstName;
     }
 
     // метод с параметрами (получает строку на вход) и присваивает ее полю firstName
     // видимость глобальная
-    //записываем
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    // Повторить для остальных полей по аналогии, кроме static
-    public String getLastName() {
-        return lastName;
-    }
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
     public int getAge() {
         return age;
     }
+
     public void setAge(int age) {
         this.age = age;
     }
 
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 }
-
-
-
-
-
