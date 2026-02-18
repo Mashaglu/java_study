@@ -17,7 +17,7 @@ public class CookRunner {
 
         System.out.println("Выберите продукт для приготовления и введите цифру:\n 1 - Карп\n 2 - Курица\n 3 - Утка\n 4 - Лосось\n 5 - Осётр\n 6 - Индейка");
 
-        int product = new Scanner(System.in).nextInt();
+        final int product = new Scanner(System.in).nextInt();
 
         switch (product) {
             case 1 -> Chef.chefcook(carp);

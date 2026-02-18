@@ -16,9 +16,9 @@ import static Homework.dz_6.Season.*;
 public class main {
     public static void main(String[] args) {
 
-        LocalDate date = LocalDate.now();
-        int month = date.getMonthValue();
-        String name = date.getMonth().getDisplayName(TextStyle.FULL_STANDALONE, new Locale("ru"));
+        final LocalDate date = LocalDate.now();
+        final int month = date.getMonthValue();
+        final String name = date.getMonth().getDisplayName(TextStyle.FULL_STANDALONE, new Locale("ru"));
         switch (month) {
             case 12, 1, 2 -> print(month, name, WINTER.getRusName());
             case 3, 4, 5 -> print(month, name, SPRING.getRusName());
@@ -27,7 +27,7 @@ public class main {
         }
 
         System.out.println("\nВведите код валюты");
-        int choice = new Scanner(System.in).nextInt();
+         final int choice = new Scanner(System.in).nextInt();
 
         switch (choice) {
             case 1 -> System.out.println(USD.toString());
