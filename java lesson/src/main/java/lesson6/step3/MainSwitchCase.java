@@ -29,10 +29,10 @@ public class MainSwitchCase {
                 if (number2 == 0) {
                     print(DIV, "Ошибка: деление на ноль", ERROR);
                 } else {
-                    print(DIV, (number1 * number2), SUCCESS);
+                    print(DIV, (number1 / number2), SUCCESS);
                 }
             }
-            default -> System.out.println("Ошибка: неизвестная операция: " + operation);
+            default -> System.out.println("Ошибка: неизвестная операция: " + operation.getValue());
         }
     }
 

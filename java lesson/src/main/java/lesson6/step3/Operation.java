@@ -4,7 +4,8 @@ public enum Operation {
     ADD("Сумма"),
     SUB("Разница"),
     MUL("Умножение"),
-    DIV("Деление");
+    DIV("Деление"),
+    DEFAULT("Не найдена операция");
 
     private final String value;
     Operation(String value) {
@@ -16,6 +17,10 @@ public enum Operation {
     }
 
     public static Operation from(String operation) {
-        return Operation.valueOf(operation.trim().toUpperCase());
+        try {
+            return Operation.valueOf(operation.trim().toUpperCase());
+        } catch (IllegalArgumentException e) {
+            return Operation.DEFAULT;
+        }
     }
 }

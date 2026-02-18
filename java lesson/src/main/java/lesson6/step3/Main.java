@@ -31,6 +31,6 @@ public class Main {
     }
 
     private static void print(String message, Status status,  String name) {
-        System.out.printf("%s [%s] %s", status, name, message);
+        System.out.printf("%s %s %s", status, name, message);
     }
 }
