@@ -27,7 +27,7 @@ public class Main {
         }
 
         System.out.println("\nВведите код валюты");
-         final int choice = new Scanner(System.in).nextInt();
+        final int choice = new Scanner(System.in).nextInt();
 
         switch (choice) {
             case 1 -> System.out.println(USD.toString());
