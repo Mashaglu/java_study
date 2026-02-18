@@ -13,7 +13,7 @@ import java.util.Scanner;
 import static Homework.dz_6.CurrencyRate.*;
 import static Homework.dz_6.Season.*;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
         final LocalDate date = LocalDate.now();
