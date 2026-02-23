@@ -29,13 +29,13 @@ public class Main {
 
         System.out.println("Введите ваш номер телефона");
         final String phone = new Scanner(System.in).nextLine();
-        PhoneNumberValidator.validatenumber(phone);
+        System.out.println(PhoneNumberValidator.validatenumber(phone));
 
         System.out.println("\nВведите строку для шифрования");
         final String strforcode = new Scanner(System.in).nextLine();
         System.out.println("Введите число для шифрования");
         final int intforcode = new Scanner(System.in).nextInt();
-        StringCipher.decode(strforcode, intforcode);
+        System.out.println(StringCipher.decode(strforcode, intforcode));
 
     }
 }
