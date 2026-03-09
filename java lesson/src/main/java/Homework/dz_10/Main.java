@@ -44,10 +44,10 @@ public class Main {
         final Set<String> textSet = new TreeSet<>(list);
         System.out.println("Уникальный список: " + textSet);
         if (textSet.size() == list.size()) {
-            System.out.println("Дубликатов нет");
+            System.out.println("Дубликатов нет ");
             return true;
         } else {
-            System.out.println("Дубликаты есть");
+            System.out.println("Дубликаты есть ");
             return false;
         }
     }
