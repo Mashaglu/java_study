@@ -1,0 +1,3 @@
+1. Строки String.class, StringBuilder, StringBuffer;
+2. Массивы arrays;
+3. Циклы fori, for, while, do while;

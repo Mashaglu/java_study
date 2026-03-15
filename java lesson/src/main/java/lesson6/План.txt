@@ -1,0 +1,4 @@
+1. Понятие Enum-ов;
+2. Понятие Record-ов;
+3. Управляющие конструкции if-else-else if, перебор case switch
+4. instanceof принцип работы
